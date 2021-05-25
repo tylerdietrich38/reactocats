@@ -1,5 +1,9 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 15px / 1 sans-serif;
+}
+
+* {
+  padding: 0;
 }
 
 html {
@@ -9,4 +13,334 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(250, 251, 251);
+}
+
+header {
+  background-color: rgb(254, 254, 254, 0.8);
+  position: sticky;
+  display: flex;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  border-style: solid;
+  border-color: rgb(213, 214, 214);
+  border-width: 1px;
+  backdrop-filter: blur(7px);
+}
+
+.topleft ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.topleft ul:hover {
+  text-decoration: underline;
+}
+
+.topright ul:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  margin: 6px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.pic {
+  border-style: solid;
+  border-color: rgb(213, 214, 214);
+  border-width: 1px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 3rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.numbertext ul {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(95, 102, 110);
+  font-size: 18px;
+  font-family: 'Alliance No.1', sans-serif;
+}
+
+.picone {
+  border-style: solid;
+  border-color: rgb(213, 214, 214);
+  border-width: 1px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.numbertextone ul {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(95, 102, 110);
+  font-size: 18px;
+  font-family: 'Alliance No.1', sans-serif;
+}
+
+.picsecond {
+  border-style: solid;
+  border-color: rgb(213, 214, 214);
+  border-width: 1px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.numbertextsecond ul {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(95, 102, 110);
+  font-size: 18px;
+  font-family: 'Alliance No.1', sans-serif;
+}
+
+.picthird {
+  border-style: solid;
+  border-color: rgb(213, 214, 214);
+  border-width: 1px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.numbertextthird ul {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(95, 102, 110);
+  font-size: 18px;
+  font-family: 'Alliance No.1', sans-serif;
+}
+
+.numbertextfourth ul {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(95, 102, 110);
+  font-size: 18px;
+  font-family: 'Alliance No.1', sans-serif;
+}
+
+.picfourth {
+  border-style: solid;
+  border-color: rgb(213, 214, 214);
+  border-width: 1px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.numbertextfifth ul {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(95, 102, 110);
+  font-size: 18px;
+  font-family: 'Alliance No.1', sans-serif;
+}
+
+.picfifth {
+  border-style: solid;
+  border-color: rgb(213, 214, 214);
+  border-width: 1px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.numbertextsixth ul {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(95, 102, 110);
+  font-size: 18px;
+  font-family: 'Alliance No.1', sans-serif;
+}
+
+.picsixth {
+  border-style: solid;
+  border-color: rgb(213, 214, 214);
+  border-width: 1px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.numbertextseventh ul {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(95, 102, 110);
+  font-size: 18px;
+  font-family: 'Alliance No.1', sans-serif;
+}
+
+.picseventh {
+  border-style: solid;
+  border-color: rgb(213, 214, 214);
+  border-width: 1px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.numbertexteighth ul {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(95, 102, 110);
+  font-size: 18px;
+  font-family: 'Alliance No.1', sans-serif;
+}
+
+.piceighth {
+  border-style: solid;
+  border-color: rgb(213, 214, 214);
+  border-width: 1px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.numbertextninth ul {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(95, 102, 110);
+  font-size: 18px;
+  font-family: 'Alliance No.1', sans-serif;
+}
+
+.picninth {
+  border-style: solid;
+  border-color: rgb(213, 214, 214);
+  border-width: 1px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.numbertexttenth ul {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(95, 102, 110);
+  font-size: 18px;
+  font-family: 'Alliance No.1', sans-serif;
+}
+
+.pictenth {
+  border-style: solid;
+  border-color: rgb(213, 214, 214);
+  border-width: 1px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.numbertexteleventh ul {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(95, 102, 110);
+  font-size: 18px;
+  font-family: 'Alliance No.1', sans-serif;
+}
+
+.piceleventh {
+  border-style: solid;
+  border-color: rgb(213, 214, 214);
+  border-width: 1px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.numbertexttwelfth ul {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(95, 102, 110);
+  font-size: 18px;
+  font-family: 'Alliance No.1', sans-serif;
+}
+
+.pictwelfth {
+  border-style: solid;
+  border-color: rgb(213, 214, 214);
+  border-width: 1px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+footer {
+  position: bottom;
+  bottom: 10px;
+  width: 80%;
+  align-items: center;
+  color: rgb(102, 108, 116);
+  border-top: solid;
+  border-width: 1px;
+  border-color: rgb(213, 214, 214);
+  font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
 }
